@@ -1,0 +1,3 @@
+class Dog{
+  public $legs=
+}
