@@ -10,6 +10,16 @@ class Dog{
   public function display(){
     echo $this->legs;
   }
+
+  // setter method to set names for Dog objects
+  public function set_name(){
+    this->$name = $name;
+  }
+  
+  // setter method to set names for Dog objects
+  public function set_breed(){
+    this->$breed = $breed;
+  }
 }
 
 
