@@ -4,6 +4,10 @@
   </head>
   <body>
     <?php echo '<p>Hello World</p>'; 
+      require_once 'Dog.php';
+      $d1 = new Dog("Marley", "boxer");
+      
+      $d1-> display();
       /*
       // Create a write file
       $myfile = fopen("file.txt", "w");
