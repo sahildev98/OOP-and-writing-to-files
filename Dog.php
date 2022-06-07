@@ -1,3 +1,12 @@
+<?php
 class Dog{
-  public $legs=
+  // attributes of the class Dog
+  public $name;
+  public $breed;
+  public $legs=4;
+  }
 }
+
+$
+
+?> 
