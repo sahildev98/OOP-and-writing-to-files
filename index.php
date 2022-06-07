@@ -10,7 +10,8 @@
       // set a attribute name and breed for dog1 object 
       $dog1->name = "Marley";
       $dog1->breed = "boxer";
-     
+       // var_dump function added to output the dog1 obeject. 
+      var_dump($dog1);
       $dog1-> display();
       /*
       // Create a write file
