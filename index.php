@@ -11,10 +11,13 @@
       // $dog1->name = "Marley";
       // $dog1->breed = "boxer";
 
+      $dog2->set_name = "Milo";
+      $dog2->set_breed = "German Shepard";
+      
     
-       // var_dump function added to output the dog1 obeject. 
-      var_dump($dog1);
-      $dog1-> display();
+       // var_dump function added to output the dog1 object. 
+      var_dump($dog2);
+      // $dog1-> display();
       /*
       // Create a write file
       $myfile = fopen("file.txt", "w");
