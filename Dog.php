@@ -1,9 +1,10 @@
 <?php
 class Dog{
   // attributes of the class Dog
-  public $name;
-  public $breed;
-  public $legs=4;
+  // private variable can only be accessed inside the class. 
+  private $name;
+  private $breed;
+  private $legs=4;
 
   // method to display the legs of dog
   public function display(){
