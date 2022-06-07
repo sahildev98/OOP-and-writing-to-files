@@ -5,9 +5,13 @@
   <body>
     <?php echo '<p>Hello World</p>'; 
       require_once 'Dog.php';
-      $d1 = new Dog("Marley", "boxer");
-      
-      $d1-> display();
+      $dog1 = new Dog("Marley", "boxer");
+
+      // set a attribute name and breed for dog1 object 
+      $dog1->name = "Marley";
+      $dog1->breed = "boxer";
+     
+      $dog1-> display();
       /*
       // Create a write file
       $myfile = fopen("file.txt", "w");
