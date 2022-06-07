@@ -5,7 +5,7 @@
   <body>
     <?php echo '<p>Hello World</p>'; 
       require_once 'Dog.php';
-      // $dog1 = new Dog("Marley", "boxer");
+      
 
       // set a attribute name and breed for dog1 object 
       // $dog1->name = "Marley";
