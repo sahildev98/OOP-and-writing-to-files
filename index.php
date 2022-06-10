@@ -11,8 +11,10 @@
       // $dog1->name = "Marley";
       // $dog1->breed = "boxer";
 
-      $dog2->set_name = "Milo";
-      $dog2->set_breed = "German Shepard";
+      // $dog2->set_name = "Milo";
+      // $dog2->set_breed = "German Shepard";
+
+      
       
     
        // var_dump function added to output the dog1 object. 
