@@ -4,8 +4,14 @@ class Dog{
   // private variable can only be accessed inside the class. 
   private $name;
   private $breed;
-  public $legs = 4;
+  private $legs;
 
+  public function __construct() {
+    $this->name = $name;
+    $this->breed = $breed;
+    $this->legs = 4;
+    
+  }
   // method to display the legs of dog
   public function display(){
     echo $this->$legs;
