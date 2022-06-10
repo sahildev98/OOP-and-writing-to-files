@@ -15,7 +15,7 @@
       // $dog2->set_breed = "German Shepard";
 
       $dog3 = new Dog("Bella", "Chihuahua");
-      
+      // echo $dog3->name;
     
        // var_dump function added to output the dog1 object. 
       var_dump($dog3);
