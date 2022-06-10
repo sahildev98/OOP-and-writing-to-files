@@ -14,11 +14,11 @@
       // $dog2->set_name = "Milo";
       // $dog2->set_breed = "German Shepard";
 
-      
+      $dog3 = new Dog("Bella", "Chihuahua");
       
     
        // var_dump function added to output the dog1 object. 
-      var_dump($dog2);
+      var_dump($dog3);
       // $dog1-> display();
       /*
       // Create a write file
