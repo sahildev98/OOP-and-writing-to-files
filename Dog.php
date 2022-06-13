@@ -7,6 +7,8 @@ class Dog extends Animal{
 
   public function __construct($name, $age, $colour, $breed) {
     $this->name = $name;
+    $this_>age = $age;
+    $this->$colour = $colour;
     $this->breed = $breed;
   }
   // method to display the legs of dog
