@@ -5,10 +5,9 @@ class Dog extends Animal{
   private $breed;
   private $legs = 4;
 
-  public function __construct($name, $age, $colour, $breed) {
-    $this->name = $name;
-    $this_>age = $age;
-    $this->$colour = $colour;
+  public function __construct($name, $age, $colour, $breed)
+  {
+    parent::__construct($name, $age, $colour);
     $this->breed = $breed;
   }
   // method to display the legs of dog
@@ -27,5 +26,6 @@ set attributes. Getter functions created to get the attributes.*/
     return $this->$breed; 
   }
 
+}
 
 ?> 

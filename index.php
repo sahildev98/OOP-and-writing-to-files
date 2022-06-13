@@ -4,7 +4,8 @@
   </head>
   <body>
     <?php echo '<p>Hello World</p>'; 
-      require_once 'Dog.php';
+      include 'Animal.php';
+      include 'Dog.php';
       
 
       // set a attribute name and breed for dog1 object 
@@ -14,9 +15,9 @@
       // $dog2->set_name = "Milo";
       // $dog2->set_breed = "German Shepard";
 
-      $dog3 = new Dog("Bella", "Chihuahua");
+      $dog3 = new Dog("Bella", 4, "grey", "Chihuahua");
       // echo $dog3->name;
-    
+      echo $dog3->get_name();
        // var_dump function added to output the dog1 object. 
       var_dump($dog3);
       // $dog1-> display();

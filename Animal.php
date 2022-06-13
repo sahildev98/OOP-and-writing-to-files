@@ -33,7 +33,7 @@ class Animal{
     $this->colour = $colour;
   }
 
-  public function get_colour{
+  public function get_colour(){
     return $this->$colour;
   }
 }
