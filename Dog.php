@@ -5,7 +5,7 @@ class Dog extends Animal{
   private $breed;
   private $legs = 4;
 
-  public function __construct($name, $breed) {
+  public function __construct($name, $age, $colour, $breed) {
     $this->name = $name;
     $this->breed = $breed;
     
@@ -16,17 +16,11 @@ class Dog extends Animal{
   }
 
   // setter method to set names for Dog objects
-  public function set_name($name){
-    $this->name = $name;
-  }
+  
   
   // setter method to set names for Dog objects
   public function set_breed($breed){
     $this->$breed = $breed;
-  }
-
-  public function get_name(){
-    return $this->name;
   }
 }
 
