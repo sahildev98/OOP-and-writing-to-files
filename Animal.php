@@ -1,5 +1,10 @@
 <?php 
-class Animal
+class Animal{
+  private $name;
+  private $age;
+  private $colour;
+  
+}
 
 
 
