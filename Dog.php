@@ -8,21 +8,22 @@ class Dog extends Animal{
   public function __construct($name, $age, $colour, $breed) {
     $this->name = $name;
     $this->breed = $breed;
-    
   }
   // method to display the legs of dog
   public function display(){
     echo $this->$legs;
   }
 
-  // setter method to set names for Dog objects
-  
-  
-  // setter method to set names for Dog objects
-  public function set_breed($breed){
+/* getters and setters created. Setters functions created to create   
+set attributes. Getter functions created to get the attributes.*/ 
+    public function set_breed($breed){
     $this->$breed = $breed;
   }
-}
+  
+
+  public function get_breed(){
+    return $this->$breed; 
+  }
 
 
 ?> 
