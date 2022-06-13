@@ -1,5 +1,5 @@
 <?php
-class Dog{
+class Dog extends Animal{
   // attributes of the class Dog
   // private variable can only be accessed inside the class. 
   private $breed;
